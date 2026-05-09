@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T21:46:53.982523Z",
+  "lastUpdated": "2026-05-08T21:52:21.897316Z",
   "actionRequired": [],
   "activeNow": [
     {
@@ -13,26 +13,26 @@
     {
       "name": "Customer Enrichment",
       "status": "live",
-      "lastChecked": "2026-05-08T21:46:54.264798Z",
+      "lastChecked": "2026-05-08T21:52:22.175477Z",
       "metrics": "72 customers processed"
     },
     {
       "name": "Signal Detection",
       "status": "live",
-      "lastChecked": "2026-05-08T21:46:54.264805Z",
-      "metrics": "2 signal files created"
+      "lastChecked": "2026-05-08T21:52:22.175486Z",
+      "metrics": "3 signal files created"
     },
     {
       "name": "Demand Router",
       "status": "monitoring",
-      "lastChecked": "2026-05-08T21:46:54.264807Z",
+      "lastChecked": "2026-05-08T21:52:22.175488Z",
       "metrics": "0 opportunities queued"
     }
   ],
   "crons": [],
   "recentActivity": [
     {
-      "time": "2026-05-08T20:53:01.053079Z",
+      "time": "2026-05-08T21:52:13.358533Z",
       "event": "\ud83d\udd0d Detected 1 signals"
     },
     {
