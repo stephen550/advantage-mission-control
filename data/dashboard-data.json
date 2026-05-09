@@ -1,56 +1,40 @@
 {
-  "lastUpdated": "2026-05-08T21:52:21.897316Z",
+  "lastUpdated": "2026-05-08T22:01:24.789273Z",
+  "dataSource": {
+    "enrichmentFile": "servicetitan_live_enriched_20260508_220051.csv",
+    "enrichmentAge": 0.5613763666666666,
+    "routingFile": "demand_routing_20260508_220051.json",
+    "routingAge": 0.5518118833333333
+  },
+  "systemHealth": {
+    "customersProcessed": 72,
+    "dataFreshness": "1 minutes ago"
+  },
   "actionRequired": [],
-  "activeNow": [
-    {
-      "task": "ServiceTitan Customer Enrichment",
-      "model": "automated",
-      "startedAt": "2026-05-08T15:13:00Z",
-      "status": "running"
-    }
-  ],
+  "activeNow": [],
   "products": [
     {
       "name": "Customer Enrichment",
       "status": "live",
-      "lastChecked": "2026-05-08T21:52:22.175477Z",
-      "metrics": "72 customers processed"
+      "metrics": "72 customers processed",
+      "lastChecked": "2026-05-08T22:01:24.789295Z"
     },
     {
       "name": "Signal Detection",
       "status": "live",
-      "lastChecked": "2026-05-08T21:52:22.175486Z",
-      "metrics": "3 signal files created"
-    },
-    {
-      "name": "Demand Router",
-      "status": "monitoring",
-      "lastChecked": "2026-05-08T21:52:22.175488Z",
-      "metrics": "0 opportunities queued"
+      "metrics": "1 opportunities found",
+      "lastChecked": "2026-05-08T22:01:24.789297Z"
     }
   ],
   "crons": [],
   "recentActivity": [
     {
-      "time": "2026-05-08T21:52:13.358533Z",
-      "event": "\ud83d\udd0d Detected 1 signals"
+      "time": "2026-05-08T22:00:51.680569Z",
+      "event": "\ud83c\udfaf Processed 1 opportunities"
     },
     {
-      "time": "2026-05-08T20:50:24.822579Z",
-      "event": "\ud83d\udd0d Detected 1 signals"
-    },
-    {
-      "time": "2026-05-08T15:13:24.572917Z",
+      "time": "2026-05-08T22:00:51.106694Z",
       "event": "\ud83d\udcca Enriched 72 customers"
-    },
-    {
-      "time": "2026-05-08T15:07:51.000206Z",
-      "event": "\ud83d\udcca Enriched 10 customers"
-    },
-    {
-      "time": "2026-05-06T11:21:11.626429Z",
-      "event": "\ud83d\udcca Enriched 4746 customers"
     }
-  ],
-  "systemHealth": {}
+  ]
 }
