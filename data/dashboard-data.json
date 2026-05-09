@@ -1,104 +1,56 @@
 {
-  "lastUpdated": "2026-05-08T21:45:00Z",
-  "actionRequired": [
-    {
-      "title": "🥇 HIGH VALUE: Call (850) 555-3047",
-      "url": null,
-      "priority": "high",
-      "details": "Signal: 'new system' | Score: 100/100 | Previous: $8,500"
-    }
-  ],
+  "lastUpdated": "2026-05-08T21:46:53.982523Z",
+  "actionRequired": [],
   "activeNow": [
     {
       "task": "ServiceTitan Customer Enrichment",
       "model": "automated",
       "startedAt": "2026-05-08T15:13:00Z",
       "status": "running"
-    },
-    {
-      "task": "Signal Detection Monitoring",
-      "model": "ai-scanner",
-      "startedAt": "2026-05-08T20:50:00Z",
-      "status": "monitoring"
     }
   ],
   "products": [
     {
       "name": "Customer Enrichment",
       "status": "live",
-      "lastChecked": "2026-05-08T21:45:00Z",
+      "lastChecked": "2026-05-08T21:46:54.264798Z",
       "metrics": "72 customers processed"
     },
     {
-      "name": "Signal Detection", 
+      "name": "Signal Detection",
       "status": "live",
-      "lastChecked": "2026-05-08T20:53:00Z",
-      "metrics": "1 high-confidence signal found"
+      "lastChecked": "2026-05-08T21:46:54.264805Z",
+      "metrics": "2 signal files created"
     },
     {
       "name": "Demand Router",
-      "status": "live", 
-      "lastChecked": "2026-05-08T20:53:00Z",
-      "metrics": "1 opportunity routed to Rhonda"
+      "status": "monitoring",
+      "lastChecked": "2026-05-08T21:46:54.264807Z",
+      "metrics": "0 opportunities queued"
     }
   ],
-  "crons": [
-    {
-      "name": "ServiceTitan Enrichment",
-      "schedule": "Every 3 hours",
-      "lastRun": "2026-05-08T15:13:00Z",
-      "status": "ok",
-      "errors": 0,
-      "lastError": null,
-      "nextRun": "2026-05-09T00:29:00Z"
-    },
-    {
-      "name": "Signal Scanner",
-      "schedule": "Auto-triggered",
-      "lastRun": "2026-05-08T20:53:00Z",
-      "status": "ok", 
-      "errors": 0,
-      "lastError": null
-    },
-    {
-      "name": "Demand Router",
-      "schedule": "Auto-triggered",
-      "lastRun": "2026-05-08T20:53:00Z",
-      "status": "ok",
-      "errors": 0,
-      "lastError": null
-    }
-  ],
+  "crons": [],
   "recentActivity": [
     {
-      "time": "2026-05-08T20:53:00Z",
-      "event": "🎯 Routed high-value customer (850) 555-3047 to Rhonda queue"
+      "time": "2026-05-08T20:53:01.053079Z",
+      "event": "\ud83d\udd0d Detected 1 signals"
     },
     {
-      "time": "2026-05-08T20:50:00Z", 
-      "event": "🔍 Detected 'new system' signal with 100% confidence"
+      "time": "2026-05-08T20:50:24.822579Z",
+      "event": "\ud83d\udd0d Detected 1 signals"
     },
     {
-      "time": "2026-05-08T15:13:00Z",
-      "event": "📊 Enriched 72 customers with 90.8% data completeness"
+      "time": "2026-05-08T15:13:24.572917Z",
+      "event": "\ud83d\udcca Enriched 72 customers"
     },
     {
-      "time": "2026-05-08T11:21:00Z",
-      "event": "🚀 AI Demand Intelligence System startup complete"
+      "time": "2026-05-08T15:07:51.000206Z",
+      "event": "\ud83d\udcca Enriched 10 customers"
     },
     {
-      "time": "2026-05-08T11:21:00Z",
-      "event": "📈 Initial enrichment: 4,746 customers processed"
+      "time": "2026-05-06T11:21:11.626429Z",
+      "event": "\ud83d\udcca Enriched 4746 customers"
     }
   ],
-  "systemHealth": {
-    "overall": 100,
-    "enrichmentEngine": "running",
-    "signalDetection": "active", 
-    "demandRouting": "active",
-    "customersMonitored": 72,
-    "opportunitiesDetected": 1,
-    "dataFreshness": "6.3 hours",
-    "processingRate": "6 files/hour"
-  }
+  "systemHealth": {}
 }
